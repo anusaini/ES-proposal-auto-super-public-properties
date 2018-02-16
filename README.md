@@ -1,0 +1,1 @@
+# ES-proposal-auto-super-public-properties
