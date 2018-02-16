@@ -2,7 +2,9 @@
 
 Current
 
-```class Point2D {
+```javascript
+
+class Point2D {
     constructor(x, y) {
         this.x = x
         this.y = y
@@ -15,17 +17,21 @@ class Point3D extends Point2D {
         this.z = z
     }
 }
+
 ```
 
 Proposed
 
-```class Point2D {
+```javascript
+
+class Point2D {
     constructor(x, y)
 }
 
 class Point3D extends Point2D {
     constructor(super x, super y, z)
 }
+
 ```
 
 Notice:
